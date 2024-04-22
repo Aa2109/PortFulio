@@ -48,4 +48,12 @@ p{
   .footer-container{
     grid-template-columns: 1fr;
   }
+  .hire{
+    grid-template-columns: 1fr
+  }
+}
+
+.hire{
+  text-align: center;
+  margin-bottom: 2rem;
 }

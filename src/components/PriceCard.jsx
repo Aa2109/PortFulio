@@ -15,7 +15,7 @@ const PriceCard = () => {
           <p>- 3 Days -</p>
           <p>- 3 Pages -</p>
           <p>- Featured -</p>
-          <p>- Responsive Design -</p>
+          <p>- Ready projects -</p>
           <Link to="/contact" className="btn">
             PURCHASE NOW
           </Link>
@@ -27,7 +27,7 @@ const PriceCard = () => {
           <p>- 2 Days -</p>
           <p>- 5 Pages -</p>
           <p>- Featured -</p>
-          <p>- Responsive Design -</p>
+          <p>- Redy projects -</p>
           <Link to="/contact" className="btn">
             PURCHASE NOW
           </Link>
@@ -39,7 +39,7 @@ const PriceCard = () => {
           <p>- 5 Days -</p>
           <p>- 8 Pages -</p>
           <p>- Featured -</p>
-          <p>- Responsive Design -</p>
+          <p>- Ready Projects -</p>
           <Link to="/contact" className="btn">
             PURCHASE NOW
           </Link>

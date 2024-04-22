@@ -1,12 +1,14 @@
 import React from 'react'
-import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone } from "react-icons/fa"
+import { FaGithub, FaHome, FaInstagram, FaLinkedin, FaMailBulk, FaPhone } from "react-icons/fa"
 import "./FooterStyles.css"
 import { FaTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
   return (
     <div className="footer">
+      <h1 className='hire'>Wants to hire me?. Contact me</h1>
       <div className="footer-container">
+        
         <div className="left">
           <div className="location">
             <FaHome size={30} style={
@@ -30,24 +32,28 @@ const Footer = () => {
             <FaMailBulk size={20} style={
               {color:'#fff', marginRight:"2rem"}
               }/>
-              aashifiqubal67@gmail.com
+              aashifiqubal68@gmail.com
             </h4>
           </div>
         </div>
 
         <div className="right">
-          <h4>About the company</h4>
-          <p>Write here about company dtails</p>
+          <h4>Wants to know more?</h4>
+          <p>contact me on below links</p>
           <div className='social'>
-          <FaFacebook size={30} style={
-            {color:'#fff', marginRight:"1rem"}
-            }/>
-          <FaTwitter size={30} style={
-            {color:'#fff', marginRight:"1rem"}
-            }/>
-          <FaLinkedin size={30} style={
-            {color:'#fff', marginRight:"1rem"}
-            }/>
+          <a href="https://www.linkedin.com/in/aashif-iqubal-b067bb22b/" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin size={30} style={{ color: '#fff', marginRight: '1rem' }} />
+          </a>
+          <a href="https://github.com/Aa2109/" target="_blank" rel="noopener noreferrer">
+            <FaGithub size={30} style={{ color: '#fff', marginRight: '1rem' }} />
+          </a>
+          <a href="https://twitter.com/aashif_857" target="_blank" rel="noopener noreferrer">
+            <FaTwitter size={30} style={{ color: '#fff', marginRight: '1rem' }} />
+
+            <a href="https://www.instagram.com/aashif_857" target="_blank" rel="noopener noreferrer">
+            <FaInstagram size={30} style={{ color: '#fff', marginRight: '1rem' }} />
+          </a>
+          </a>
           </div>
         </div>
       </div>

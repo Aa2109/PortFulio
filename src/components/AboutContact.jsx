@@ -12,7 +12,7 @@ const AboutContact = () => {
           <h1>Who Am I?</h1>
           <p>
             I am full-stack developer.
-            I ahve created many projects.
+          currently learning new technologies.
           </p>
           <Link to = "/contact">
             <button className="btn">Contaact</button>

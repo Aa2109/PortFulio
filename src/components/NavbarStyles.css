@@ -59,3 +59,9 @@
     display: initial;
   }
 }
+.resume{
+  color: aqua;
+  font-size: 8rem;
+  font-weight: 800;
+  font-family: 'Times New Roman', Times, serif;
+}

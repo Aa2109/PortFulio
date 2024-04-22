@@ -24,8 +24,13 @@ const Navbar = () => {
     <div className={color ? "header header-bg" : "header"}>
       <Link to="/">
         <h1>Portfolio.</h1>
+        
       </Link>
+      
       <ul className={click ? "nav-menu active" : "nav-menu"}>
+      <li>
+      <a className="resume" href="https://drive.google.com/file/d/1LJdPuJlM_69bEc3AGMMK7Sgxdvtg4RsP/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Resume</a>
+    </li>
         <li>
           <Link to = "/">Home</Link>
         </li>
@@ -38,6 +43,7 @@ const Navbar = () => {
         <li>
           <Link to = "/contact">Contact</Link>
         </li>
+       
       </ul>
       <div className="hamburger" onClick={handleClick}>
         {click ?(
