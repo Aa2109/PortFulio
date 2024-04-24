@@ -12,17 +12,17 @@ const WorkCardData= [
   },
   {
     imgsrc : pro2,
-    title :"Ecommerce Website Desisgn",
+    title :"Online Food Ordering",
     text : "Comming soon, working on backend ",
-    view : "https://github.com/Aa2109/",
-    source : "https://github.com/Aa2109/"
+    view : "https://github.com/Aa2109/Aa2109-Online-Kitchen.git",
+    source : "https://github.com/Aa2109/Aa2109-Online-Kitchen.git"
   },
   {
     imgsrc : pro3,
     title :"Portfulio",
     text : "My simple portfulio, using react js",
-    view : "http://localhost:8080/api/",
-    source : "https://github.com/Aa2109/Blog-App"
+    view : "https://port-fulio-aa2109s-projects.vercel.app/",
+    source : "https://github.com/Aa2109/PortFulio"
   },
 ];
 
