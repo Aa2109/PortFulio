@@ -26,11 +26,13 @@ const Navbar = () => {
         <h1>Portfolio.</h1>
         
       </Link>
-      
       <ul className={click ? "nav-menu active" : "nav-menu"}>
-      <li>
-      <a className="resume" href="https://drive.google.com/file/d/1LJdPuJlM_69bEc3AGMMK7Sgxdvtg4RsP/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Resume</a>
-    </li>
+        <li>
+          
+        </li>
+      {/* <li>
+      <a className="resume" href="https://docs.google.com/document/d/1Wt9EwQlSIdE4w6WNbd5lLpSm_cEHlIMR/edit?usp=sharing&ouid=115494833135031421203&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">Resume</a>
+    </li> */}
         <li>
           <Link to = "/">Home</Link>
         </li>

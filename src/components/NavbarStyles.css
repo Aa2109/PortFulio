@@ -9,6 +9,7 @@
   height: 90px;
   z-index: 10;
 }
+
 .header-bg{
   background-color: rgba(0, 0, 0, 0.85);
   transition: 0.5s;
@@ -16,9 +17,15 @@
 .nav-menu{
   display: flex;
 }
+
 .nav-menu li{
   padding: 0 1rem;
 }
+
+.nav-menu li:hover {
+  background-color: rgba(32, 33, 32, 0.505); /* Soft gray on hover */
+}
+
 .nav-menu li a{
   font-size: 1.2rem;
   font-weight: 500;

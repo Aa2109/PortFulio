@@ -1,0 +1,114 @@
+.about-img {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  height: auto; /* Changed height to auto for responsiveness */
+  position: relative;
+  padding: 4rem 1rem; /* Added padding for spacing */
+}
+
+.about-img .skills {
+  margin-left: auto; /* Align skills text to the right on larger screens */
+  margin-right: auto; /* Align skills text to the center on smaller screens */
+  max-width: fit-content; /* Limit the width of the skills text */
+}
+
+.about-img::before {
+  content: "";
+  background-image: url("/LIB.webp");
+  background-size: cover;
+  background-position: center top;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.heading {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.heading .h {
+  font-size: 2.4rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.skills-sections {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  margin-top: 0rem; /* Increased margin-top for spacing between sections */
+}
+
+.skills-section {
+  margin: 0rem 0rem; /* Added margin between columns */
+  max-width:fit-content; /* Limit the width of each section */
+}
+
+.skills-heading {
+  font-size: 1.8rem;
+  margin-bottom: 1rem; /* Increased margin-bottom for spacing */
+}
+
+.headd .p1  .headd .p2 {
+  font-size: 1.4rem;
+  text-align: center;
+  color: #fff;
+}
+.headd .p2 {
+  font-size: 1.8rem;
+  text-align: center;
+  color: #fff;
+}
+.p1,.p2 li {
+  list-style-type: disc; /* Add bullet points */
+  margin-bottom: 1rem; /* Adjust spacing between list items */
+}
+
+.p2 {
+  list-style-type: none; /* Remove default bullet points */
+  padding-left: 0; /* Remove default left padding */
+}
+
+.p2 li {
+ /* margin-bottom: 0.5rem;  Adjust spacing between list items */
+  /*line-height: 1.5;  Set line height for better readability */
+  list-style-type: none;
+  margin-bottom: 1rem;
+}
+
+.p2 li::before {
+  content: attr(data-key) ": \00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0"; /* Add content before each list item */
+  font-weight: bold; /* Make keys bold */
+}
+.hh2{
+  margin: 2rem;
+}
+.hhh2{
+  margin: 2rem;
+}
+
+@media screen and (max-width: 640px) {
+  .about-img .h {
+    font-size: 2rem;
+  }
+
+  .skills-sections {
+    flex-direction: column; /* Change to column layout on smaller screens */
+  }
+
+  .skills-section {
+    margin: 0 0 2rem 0; /* Added margin-bottom for spacing between sections */
+  }
+
+  .skills-heading {
+    font-size: 1.6rem;
+  }
+}

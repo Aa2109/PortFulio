@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./AboutContactStyles.css";
-import React1 from "../assets/react1.jpg"
-import React2 from "../assets/react2.webp"
+import React2 from "../assets/BA.png"
+import React1 from "../assets/Portfolio Cover.png"
 
 import React from 'react'
 
@@ -9,13 +9,10 @@ const AboutContact = () => {
   return (
     <div className="about">
         <div className="left">
-          <h1>Who Am I?</h1>
-          <p>
-            I am full-stack developer.
-          currently learning new technologies.
-          </p>
+          <h1>Contact me</h1>
+          <br />
           <Link to = "/contact">
-            <button className="btn">Contaact</button>
+            <button className="btn">Contact</button>
           </Link>
         </div>
 

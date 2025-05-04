@@ -1,16 +1,22 @@
-.mask {
+/* .mask {
   width: 100%; 
+  height: 100vh;
+  position: relative;
+} */
+
+.mask {
+  display: flex;
+  justify-content: center;
+  width: 100%;
   height: 100vh;
   position: relative;
 }
 
 .into-img {
-  width: 100%; 
-  height: 100%; 
-  background-size: cover;
-  background-position: center;
-  object-fit: cover;
+  max-width: 100%;
+  height: auto;
 }
+
 .mask::after{
   content: "";
   width: 100%;
@@ -53,6 +59,17 @@
   border-radius: 1rem;
 }
 
+.hero .my-img {
+  position: absolute;
+  top: 50%;
+  right: 100;
+  transform: translateY(-50%);
+  width: 300px; /* Adjust size as needed */
+  height: 300px; /* Adjust size as needed */
+  border-radius: 50%; /* Make it round */
+  margin: 0 7rem;
+}
+
 @media screen and (max-width: 640px) {
   .hero .content h1{
     font-size: 3rem;
@@ -60,5 +77,22 @@
   .hero .content{
     font-size: 1.4rem;
   }
-  
+  /* .hero .my-img {
+    position: absolute;
+    top: -160px; 
+    right: 0;
+    width: 80px;
+    height: 80px;
+    margin: 6rem 15rem;
+  } */
 }
+  /* @media screen and (max-width: 480px) {
+     .hero .my-img {
+      position: absolute;
+      top: -120px; 
+      right: 0;
+      width: 60px;
+      height: 60px;
+      margin: 6rem 15rem;
+    } */
+  
