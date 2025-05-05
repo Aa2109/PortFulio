@@ -14,7 +14,7 @@
 
 .about-img::before {
   content: "";
-  background-image: url("/LIB.webp");
+  background-image: url("/LibD.png");
   background-size: cover;
   background-position: center top;
   height: 100%;
