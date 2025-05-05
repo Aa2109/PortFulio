@@ -7,7 +7,7 @@
 }
 .hero-img::before{
   content: "";
-  background-image: url("LIB.webp");
+  background-image: url("/LIB.webp");
   background-size: cover;
   background-position: center top;
   height: 100%;
