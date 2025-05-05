@@ -1,5 +1,6 @@
 import './HeroimgStyles.css';
-import bgImg from "../assets/Portfolio Cover.png";
+import bgImg from "../assets/LibD.png";
+import profile from "../assets/Portfolio Cover.png";
 import React from 'react'
 import { Link } from 'react-router-dom';
 
@@ -7,17 +8,14 @@ function HeroImg() {
   return (
     <div className="hero">
       <div className="mask">
-        {/* <img className="into-img" src={bgImg} alt="bgImage" /> */}
-        <div className="mask">
-  <img className="into-img" src={bgImg} alt="Item 1" />
-  <img className="into-img" src={bgImg} alt="Item 2" />
-  <img className="into-img" src={bgImg} alt="Item 3" />
-</div>
-
+        <img className="into-img" src={bgImg} alt="bgImage" />
+        
       </div>
+
       {/* <div className='profile'>
       <img className="my-img" src={profile} alt="profile" />
       </div> */}
+
       <div className="content">
         <p>Java developer with 2+ years of experience in building scalable, high‑performance backends using Spring Boot, microservices, and CI/CD pipelines.</p>
         <br />
