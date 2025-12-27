@@ -1,12 +1,5 @@
 {
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ],
-  "static": {
-    "include": ["public/**/*", "src/**/*"]
-  }
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }
-
